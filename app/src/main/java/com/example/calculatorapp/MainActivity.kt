@@ -13,6 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Color.Companion.Blue
 import androidx.compose.ui.graphics.Color.Companion.LightGray
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -72,7 +73,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "Del",
-                                color = LightGray,
+                                color = Blue,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
