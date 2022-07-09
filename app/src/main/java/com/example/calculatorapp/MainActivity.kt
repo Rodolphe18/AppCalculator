@@ -64,7 +64,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             CalculatorButton(
                                 symbol = "AC",
-                                color = LightGray,
+                                color = Blue,
                                 modifier = Modifier
                                     .aspectRatio(2f)
                                     .weight(2f)
